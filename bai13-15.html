@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            width: 60%;
+            height: auto;
+            box-shadow: 10px 10px 10px 10px gray;
+            margin: auto;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h4>bai13</h4>
+
+    <form>
+        Name:<br>
+        <td><input type="text" placeholder="Thanh Van" required=""><br><br></td>
+        <td><input type="submit" value="submit"></td>
+    </form>
+    <hr>
+    <h4>bai14</h4>
+    <table>
+        <tr>
+            <form action="" method="post">
+                <p> Name:<br>
+                    <input type="text" name="txName" value="" size="20" maxlength="20"></p>
+                <p>Telephone Number:<br>
+                    <input type="tel" name="txxtTel" value="" size="20" maxlength="20"></p>
+                <p>Favorite Color:<br>
+                    <input type="color" name="txxtTel" value="#0000FF" size="20" maxlength="20"></p>
+                <p>Date of Birth:<br>
+                    <input type="date" name="txDay" value="" size="20" maxlength="20"> </p>
+                <p><input type="submit" value="submit"> </p>
+
+            </form>
+        </tr>
+    </table>
+    <hr>
+    <h4>bai15</h4>
+    <p>
+        <h2>
+            Contact Us
+        </h2>
+    </p>
+    <p>
+        Use the following form to send a message to Example Cafe
+    </p>
+    <table>
+        <tr>
+            <td><label for="yourEmail">Your email</label></td>
+            <td><input type="text" name="txtEmail" id="yourEmail" size="20"></td>
+        </tr>
+        <tr>
+            <td><label for="Message">Message</label></td>
+            <td><textarea name="txtMessage" id="Message" cols="30" rows="10" tabindex="2"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="how">How did you hear of us?</label></td>
+            <td>
+                <input list="browsers">
+                <datalist id="browsers">
+                            <option value="Google"></option>
+                            <option value="Firefox"></option>
+                            <option value="Safari"></option>
+                        </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="letter">Newsletter</label></td>
+            <td>
+                <input type="checkbox"> Ensure this box is checked if you would like to receive email updates
+            </td>
+        </tr>
+    </table>
+    <input type="button" name="Send Message" value="Send Message">
+
+
+
+</html>
